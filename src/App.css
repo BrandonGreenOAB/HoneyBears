@@ -1,8 +1,60 @@
 .App {
   text-align: center;
-  background-color: black;
+  background-color: black!important;
 }
 
+.dashboardbackgrnd {
+  height: 150vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menulogo {
+  height: 85px;
+}
+
+.moto {
+  color: #ffedb3;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+#ogMoto {
+  text-decoration: underline;
+}
+
+.motoTextWrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mainLogo {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.mainLogoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+ 
+
+.cautionTapeTripleWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 25%;
+}
+img.cautionTape {
+  max-width: 65%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,4 +84,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1e4e1qc-MuiButtonBase-root-MuiButton-root {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
 }
