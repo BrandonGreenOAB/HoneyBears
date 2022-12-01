@@ -1,0 +1,24 @@
+.player-wrapper {
+    position: relative;
+    padding-top: 38%; /* Player ratio: 100 / (1280 / 720) */
+    justify-content: center;
+    display: flex;
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    padding-top: 8%;
+  }
+
+  @media screen and (max-width: 960px) {
+    .player-wrapper {
+      padding: 0;
+    }
+    
+    .react-player {
+      position: absolute;
+      top: 0;
+      padding-top: 0%;
+    }
+  }

@@ -1,0 +1,104 @@
+import React from "react";
+import HBNavbar from "./Components/Navbar/HBNavbar";
+import "./FindUs.css";
+import Box from "@mui/material/Box";
+import Paper from "@mui/material/Paper";
+import Grid from "@mui/material/Grid";
+import { border } from "@mui/system";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import List from "@mui/material/List";
+import Typography from "@mui/material/Typography";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+
+export const FindUs = () => {
+  const data = [
+    {
+      time: "9 AM - 6 PM",
+      day: "Sunday",
+    },
+    {
+      time: "9 AM - 9 PM",
+      day: "Monday",
+    },
+    {
+      time: "9 AM - 9 PM",
+      day: "Tuesday",
+    },
+    {
+      time: "9 AM - 9 PM",
+      day: "Wednesday",
+    },
+    {
+      time: "9 AM - 9 PM",
+      day: "Thursday",
+    },
+    {
+      time: "9 AM - 9 PM",
+      day: "Friday",
+    },
+    {
+      time: "9 AM - 9 PM",
+      day: "Saturday",
+    },
+  ];
+  const listData = data.map((a) => (
+    <ListItem>
+      <ListItemIcon>
+        <CalendarMonthIcon />
+      </ListItemIcon>
+      <ListItemText style={{ textAlign: "left" }}>
+        {" "}
+        {a.day}: {a.time}
+      </ListItemText>
+    </ListItem>
+  ));
+  return (
+    <div>
+      <HBNavbar />
+      <div className="findUs">
+        <Paper className="paper" elevation={3}>
+          <Grid container spacing={2}>
+            <Grid
+              style={{ display: "flex", justifyContent: "center" }}
+              item
+              xs={12}
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.026673641326!2d-83.44840028439262!3d35.42936925135039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859494f197ab667%3A0xeb63e93120daf1ac!2sHoney%20Bear&#39;s%20Cupcakery%20%26%20More!5e0!3m2!1sen!2sus!4v1669933922002!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </Grid>
+          </Grid>
+          <Grid
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "center",
+              marginLeft: "auto",
+              marginRight: "auto",
+              textAlign: "center",
+            }}
+            item
+            xs={12}
+            md={6}
+          >
+            <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
+              Hours of Operation
+            </Typography>
+            <div>
+              <List>{listData}</List>
+            </div>
+          </Grid>
+        </Paper>
+      </div>
+    </div>
+  );
+};

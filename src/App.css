@@ -1,85 +1,46 @@
-.App {
-  text-align: center;
-  background-color: black!important;
+body {
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+
+
+.menulogo.img {
+  height: 10px;
+  width: 10px;
+}
+
 
 .dashboardbackgrnd {
-  height: 150vh;
-  background-color: black;
   display: flex;
   flex-direction: column;
+}
+
+.dashboardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.menulogo {
-  height: 85px;
+.welcome, .welcome2 {
+  color: #FFFF;
+  font-family: 'Mountains of Christmas', cursive;
 }
 
-@media only screen and (max-width: 685px) and (max-height: 390px) {
-  .dashboardbackgrnd {
-    height: 250vh;
+@media screen and (max-width: 960px) {
+  .dashboardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-}
 
-.moto {
-  color: #ffedb3;
-  display: flex;
-  justify-content: center;
-  font-style: italic;
-}
-
-#ogMoto {
-  text-decoration: underline;
-}
-
-.motoTextWrapper {
-  display: flex;
-  flex-direction: column;
 
 }
 
-.mainLogo {
-  margin: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
 
-.mainLogoWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-}
- 
-
-.cautionTapeTripleWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  max-height: 25%;
-}
-img.cautionTape {
-  max-width: 65%;
-}
-
-
-.App-header {
-  background-color: #13161d;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1e4e1qc-MuiButtonBase-root-MuiButton-root {
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: 600;
-}
