@@ -6,12 +6,12 @@ export const HBMenuItems = [
   },
   {
     title: "About us",
-    url: "#",
+    url: "/AboutUs",
     className: "nav-links",
   },
   {
-    title: "Our Favorite Things to Do",
-    url: "#",
+    title: "Follow Us",
+    url: "/FollowUs",
     className: "nav-links",
   },
   {

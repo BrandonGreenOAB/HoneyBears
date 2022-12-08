@@ -35,9 +35,9 @@ class HBNavbar extends Component {
             );
           })}
         </ul>
-        <div>
+        <div className="impNavFlex">
           <a href="Pdfs/HBMenu.pdf" target="_blank">
-            <Button className="navMenuBtn">Menu</Button>
+            <Button className="navMenuBtn">Our Menu</Button>
           </a>
           <a
             href="https://www.toasttab.com/honey-bears-cupcakery-c-o-kim-johner-7-martin-st"

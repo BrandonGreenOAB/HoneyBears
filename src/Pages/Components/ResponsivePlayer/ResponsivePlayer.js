@@ -8,8 +8,6 @@ const ResponsivePlayer = () => {
       <ReactPlayer
         className="react-player"
         url="Videos/brysoncityXMAS.mp4"
-        width="1280px"
-        height="720px"
         controls={true}
         loop={true}
         volume={0.5}
