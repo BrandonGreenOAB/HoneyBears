@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import { colors, createTheme, ThemeProvider } from "@mui/material";
 import { color } from "@mui/system";
+import { FindUs } from "./Pages/FindUs";
+import { AboutUs } from "./Pages/AboutUs";
+import { FollowUs } from "./Pages/FollowUs";
 
 const theme = createTheme({
   components: {
@@ -22,9 +25,11 @@ function App() {
     <ThemeProvider theme={theme}>
       <Router>
         <div className="AppContainer">
-          <Home />
           <Routes>
-            <Route path="/" exact component={<Home />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/FindUs" element={<FindUs />} />
+            <Route exact path="/AboutUs" element={<AboutUs />} />
+            <Route exact path="/FollowUs" element={<FollowUs />} />
           </Routes>
         </div>
       </Router>
