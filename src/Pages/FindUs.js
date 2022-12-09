@@ -92,7 +92,11 @@ export const FindUs = () => {
           xs={12}
           md={6}
         >
-          <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
+          <Typography
+            sx={{ mt: 4, mb: 2, color: "#af4281" }}
+            variant="h6"
+            component="div"
+          >
             Hours of Operation
           </Typography>
           <div>

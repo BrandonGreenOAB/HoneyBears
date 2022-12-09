@@ -19,34 +19,17 @@
     object-fit: contain;
  }
 
- .followUs {
-    font-size: 32px;
-    text-align: center;
-    margin-top: 0;
- }
-.socials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
- .socialsIconContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 2em;
- }
 
- .socialIcon {
-    margin: 0 1em;
- }
  @media screen and (max-width: 1000px) and (min-width: 481px) {
     .textAndImgContainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; 
+     }
+
+     .aboutUsImg {
+      max-width: 300px;
      }
     
  }

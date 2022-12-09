@@ -3,6 +3,8 @@ import { Button } from "../Buttons";
 import { HBMenuItems } from "./HBMenuItems";
 import "./HBNavbar.css";
 import { Navigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 class HBNavbar extends Component {
   state = { active: false };
@@ -10,6 +12,18 @@ class HBNavbar extends Component {
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
+
+  comingSoon = () =>
+    toast("🧁 Coming next season!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
 
   render() {
     return (
@@ -39,12 +53,23 @@ class HBNavbar extends Component {
           <a href="Pdfs/HBMenu.pdf" target="_blank">
             <Button className="navMenuBtn">Our Menu</Button>
           </a>
-          <a
-            href="https://www.toasttab.com/honey-bears-cupcakery-c-o-kim-johner-7-martin-st"
-            target="_blank"
-          >
-            <Button className="navMenuBtn">Order Online</Button>
-          </a>
+          <div>
+            <Button onClick={this.comingSoon} className="navMenuBtn">
+              Order Online
+            </Button>
+            <ToastContainer
+              position="bottom-center"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="light"
+            />
+          </div>
         </div>
       </nav>
     );

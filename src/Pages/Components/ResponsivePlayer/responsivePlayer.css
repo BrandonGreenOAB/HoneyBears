@@ -1,6 +1,6 @@
 .player-wrapper {
     position: relative;
-    padding-top: 20%; /* Player ratio: 100 / (1280 / 720) */
+    padding-top: 10%; /* Player ratio: 100 / (1280 / 720) */
     justify-content: center;
     display: flex;
   }
@@ -15,7 +15,7 @@
   @media screen and (max-width: 960px) {
     .player-wrapper {
       position: relative;
-      padding-top: 20%; /* Player ratio: 100 / (1280 / 720) */
+      padding-top: 10%; /* Player ratio: 100 / (1280 / 720) */
       justify-content: center;
       display: flex;
     }
