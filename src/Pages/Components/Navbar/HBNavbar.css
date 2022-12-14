@@ -173,12 +173,22 @@ display: flex;
     justify-content: center;
     align-items: center;
     margin-right: auto;
-    margin-left: 9em;
+    margin-left: 6em;
     overflow: hidden;
 }
 
     .btn {
         margin-bottom: 0.2em;
+    }
+
+    .HBLogoImage {
+        height: 80px;
+        max-width: 150px;
+        width: auto;
+        padding-right: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
 
