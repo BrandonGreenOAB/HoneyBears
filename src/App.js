@@ -7,6 +7,7 @@ import { color } from "@mui/system";
 import { FindUs } from "./Pages/FindUs";
 import { AboutUs } from "./Pages/AboutUs";
 import { FollowUs } from "./Pages/FollowUs";
+import { FAQ } from "./Pages/FAQ";
 
 const theme = createTheme({
   components: {
@@ -27,6 +28,7 @@ function App() {
         <div className="AppContainer">
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route exact path="/FAQ" element={<FAQ />} />
             <Route exact path="/FindUs" element={<FindUs />} />
             <Route exact path="/AboutUs" element={<AboutUs />} />
             <Route exact path="/FollowUs" element={<FollowUs />} />
