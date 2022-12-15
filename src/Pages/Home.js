@@ -3,12 +3,24 @@ import HBNavbar from "./Components/Navbar/HBNavbar";
 import { cupcakes } from "./Components/ImageSlider/SliderData";
 import ResponsivePlayer from "./Components/ResponsivePlayer/ResponsivePlayer";
 import Grid from "@mui/material/Grid";
+import Snowfall from "react-snowfall";
 
 class Home extends Component {
   render() {
     return (
       <div className="dashboardbackgrnd">
         <HBNavbar className="HBNavigation" />
+        <Snowfall
+          style={{
+            position: "fixed",
+            width: "100vw",
+            height: "100vh",
+          }}
+          snowflakeCount={65}
+          radius={[3, 3]}
+          speed={[0.5, 3]}
+          wind={[2.3, 4]}
+        />
         <Grid
           style={{
             display: "flex",
