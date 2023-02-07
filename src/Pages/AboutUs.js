@@ -11,10 +11,11 @@ export const AboutUs = () => {
       <Box
         sx={{
           p: 2,
-          bgcolor: "lightgray",
+          bgcolor: "#ffedb3",
           marginLeft: "auto",
           marginRight: "auto",
           maxWidth: "90%",
+          borderRadius: "10px",
         }}
       >
         <div className="textAndImgContainer">

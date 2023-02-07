@@ -6,16 +6,16 @@ import "./FollowUs.css";
 
 export const FollowUs = () => {
   return (
-    <div>
+    <div className="followUsBackground">
       <HBNavbar />
       <Box
         className="socialsBox"
         sx={{
           p: 0,
-          bgcolor: "lightgray",
+          bgcolor: "#ffedb3",
           marginLeft: "auto",
           marginRight: "auto",
-          maxWidth: "90%",
+          maxWidth: "85%",
         }}
       >
         <div className="socials">

@@ -10,10 +10,11 @@ export const FAQ = () => {
       <Box
         sx={{
           p: 2,
-          bgcolor: "lightgray",
+          bgcolor: "#ffedb3",
           marginLeft: "auto",
           marginRight: "auto",
           maxWidth: "80%",
+          borderRadius: "10px",
         }}
       >
         <h2 className="FAQTitle">
