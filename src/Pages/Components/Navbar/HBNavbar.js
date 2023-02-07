@@ -51,7 +51,7 @@ class HBNavbar extends Component {
           })}
         </ul>
         <div className="impNavFlex">
-          <a href="Pdfs/HBMenu.pdf" target="_blank">
+          <a href="Pdfs/HBMenus.pdf" target="_blank">
             <Button className="navMenuBtn">Our Menu</Button>
           </a>
           <div>
