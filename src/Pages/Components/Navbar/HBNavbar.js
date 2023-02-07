@@ -29,7 +29,8 @@ class HBNavbar extends Component {
     return (
       <nav className="NavbarItems">
         <div className="HBLogoImageContainer">
-          <img src="/Images/HBL3547_1313.jpg" className="HBLogoImage" />
+          {/* // HBL3547_1313.jpg */}
+          <img src="/Images/MedallionTransparent.png" className="HBLogoImage" />
           {/* <h1 className="HBLogo">Honey Bears Cupcakery</h1> */}
         </div>
 
