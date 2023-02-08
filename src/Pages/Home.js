@@ -6,9 +6,6 @@ class Home extends Component {
     return (
       <div className="dashboardbackgrnd">
         <HBNavbar className="HBNavigation" />
-        <div className="desktop"></div>
-        <div className="tablet"></div>
-        <div className="mobile"></div>
       </div>
     );
   }

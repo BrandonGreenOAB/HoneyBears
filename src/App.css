@@ -13,9 +13,9 @@ body {
 
 .dashboardbackgrnd {
   background-image: url('./Pages/srcImages/backgroundDesktop.png');
-  background-size: cover;
+  background-size: contain;
   height: 100vh;
-  width: auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px){
@@ -23,7 +23,7 @@ body {
     background-image: url('./Pages/srcImages/backgroundTablet.png');
     background-size: cover;
     height: 100vh;
-    width: auto;
+    width: 100vw;
   }
 }
 @media screen and (max-width: 375px){

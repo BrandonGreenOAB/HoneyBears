@@ -95,7 +95,7 @@ display: flex;
         align-items: center;
         font-size: 1.2rem;
         position: relative;
-        padding-left: 3rem;
+        /* padding-left: 3rem; */
         
     }
 
@@ -145,7 +145,7 @@ display: flex;
         display: block;
         position: absolute;
         top: 0;
-        right: 2em;
+        right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
@@ -168,7 +168,7 @@ display: flex;
     display: block;
     position: absolute;
     top: 0;
-    right: 2em;
+    right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
