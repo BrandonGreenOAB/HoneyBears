@@ -14,32 +14,32 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 export const FindUs = () => {
   const data = [
     {
-      time: "9 AM - 6 PM",
-      day: "Sunday",
+      time: "9 AM - 4 PM",
+      day: "Sunday 2/12",
+    },
+    {
+      time: "7 AM - 4 PM",
+      day: "Monday 2/13",
+    },
+    {
+      time: "7 AM - 5:30 PM",
+      day: "Tuesday (Valentine's Day)",
     },
     {
       time: "9 AM - 9 PM",
-      day: "Monday",
+      day: "Today",
     },
     {
-      time: "9 AM - 9 PM",
-      day: "Tuesday",
+      time: "7 AM - 4 PM",
+      day: "Thursday 2/9",
     },
     {
-      time: "9 AM - 9 PM",
-      day: "Wednesday",
+      time: "7 AM - 5 PM",
+      day: "Friday 2/10",
     },
     {
-      time: "9 AM - 9 PM",
-      day: "Thursday",
-    },
-    {
-      time: "9 AM - 9 PM",
-      day: "Friday",
-    },
-    {
-      time: "9 AM - 9 PM",
-      day: "Saturday",
+      time: "8 AM - 5 PM",
+      day: "Saturday 2/11",
     },
   ];
   const listData = data.map((a) => (
