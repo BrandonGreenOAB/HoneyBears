@@ -15,6 +15,7 @@ const theme = createTheme({
       styleOverrides: {
         colorPrimary: {
           backgroundColor: "#ffedb3",
+          margin: "0px",
         },
       },
     },
