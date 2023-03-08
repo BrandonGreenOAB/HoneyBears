@@ -55,21 +55,12 @@ class HBNavbar extends Component {
             <Button className="navMenuBtn">Our Menu</Button>
           </a>
           <div>
-            <Button onClick={this.comingSoon} className="navMenuBtn">
-              Order Online
-            </Button>
-            <ToastContainer
-              position="bottom-center"
-              autoClose={5000}
-              hideProgressBar={false}
-              newestOnTop={false}
-              closeOnClick
-              rtl={false}
-              pauseOnFocusLoss
-              draggable
-              pauseOnHover
-              theme="light"
-            />
+            <a
+              target="_blank"
+              href="https://honey-bears-cupcakery.myshopify.com"
+            >
+              <Button className="navMenuBtn">Coffee Collection</Button>
+            </a>
           </div>
         </div>
       </nav>

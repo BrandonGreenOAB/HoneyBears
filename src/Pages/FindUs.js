@@ -15,31 +15,31 @@ export const FindUs = () => {
   const data = [
     {
       time: "9 AM - 4 PM",
-      day: "Sunday 2/12",
+      day: "Sunday",
+    },
+    {
+      time: "Closed",
+      day: "Monday",
+    },
+    {
+      time: "Closed",
+      day: "Tuesday",
     },
     {
       time: "7 AM - 4 PM",
-      day: "Monday 2/13",
-    },
-    {
-      time: "7 AM - 5:30 PM",
-      day: "Tuesday (Valentine's Day)",
-    },
-    {
-      time: "9 AM - 9 PM",
-      day: "Today",
+      day: "Wednesday",
     },
     {
       time: "7 AM - 4 PM",
-      day: "Thursday 2/9",
+      day: "Thursday",
     },
     {
       time: "7 AM - 5 PM",
-      day: "Friday 2/10",
+      day: "Friday",
     },
     {
       time: "8 AM - 5 PM",
-      day: "Saturday 2/11",
+      day: "Saturday",
     },
   ];
   const listData = data.map((a) => (
