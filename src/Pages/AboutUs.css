@@ -10,13 +10,15 @@
 
  .textAndImgContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;    
+    flex-direction: column;
+    justify-content: center;    
  }
 
  .aboutUsImg {
-    max-width:600px;
+   max-width:600px;
     object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 
