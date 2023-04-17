@@ -17,6 +17,28 @@ export const FAQ = () => {
           borderRadius: "10px",
         }}
       >
+        <h2 className="FAQTitle">What are your ordering rules?</h2>
+        <p className="FAQText">
+          Place orders by calling our order line @ 828-707-9946 and leaving a
+          message. Messages are checked daily, and you will be called back by
+          the end of the business day.
+          <br />
+          <br />
+          Orders must be placed 48 hours in advance.
+          <br />
+          <br />
+          You may order any flavor cupcakes in any amount as long as they are
+          “available daily” cupcakes (these can be found on our cupcake menu on
+          our website). Cupcakes come as is on the menu unless otherwise
+          discussed.
+          <br />
+          <br />
+          Special order cupcakes (not “available daily”) may be ordered in
+          multiples of 6.
+          <br />
+          <br />
+          Any special requests can be discussed during phone call.
+        </p>
         <h2 className="FAQTitle">
           Does Honey Bear’s Cupcakery only make cupcakes?
         </h2>
@@ -28,8 +50,7 @@ export const FAQ = () => {
         </p>
         <h2 className="FAQTitle">Do you have same-day pick-up ordering?</h2>
         <p className="FAQText">
-          Same day pick up ordering is available only for our daily cupcake
-          flavors and flavors of the day and can be found on our online MENU.
+          No but you can find our “available daily” cupcakes on our online MENU.
           All other flavors require a 48 hour notice also through our online
           ordering.
         </p>
@@ -70,35 +91,52 @@ export const FAQ = () => {
           online ordering. Check out our photo gallery to see how Honey Bear’s
           Cupcakery can make your special day or event memorable and delicious!
         </p>
-        <h2 className="FAQTitle">What kind of frosting do you use?</h2>
-        <p className="FAQText">
-          We use made from scratch buttercream frosting for most of our
-          cupcakes. We have a few cupcakes that use our made from scratch cream
-          cheese frosting that is less sweet, such as our red velvet and carrot
-          cake.
-        </p>
         <h2 className="FAQTitle">
           How do I store the cupcakes after I pick them up?
         </h2>
         <p className="FAQText">
-          Cupcakes can be stored at room temperature and enjoyed on the date of
-          pick-up. If you will be having the cupcakes more than 24 hours after
-          pick-up, it is recommended to freeze them in an airtight container for
-          up to 10 days after they are purchased. To thaw, leave them at room
-          temperature for 2 hours before serving.
+          Honey Bear’s Cupcakery serves ‘always fresh, always from scratch,
+          baked daily in house’ cupcakes & fried yeast donuts, made with high
+          quality ingredients, real fruits, Ghirardelli Chocolates, handmade
+          buttercream and cream cheese frostings.
+          <br />
+          <br />
+          Honey Bear’s cupcakes are the freshest if eaten within 24 hours and do
+          not need to be refrigerated.
+          <br />
+          <br />
+          If you are planning on having them later than 24 hours, there are ways
+          to keep our cupcakes fresh!
+          <br />
+          <br />
+          Preferred method: Freeze… Store in an airtight container and put in
+          the freezer within 24 hours. Freeze for up to 2 months. Thaw just one,
+          or all, at room temp for 2 hours.
+          <br />
+          <br />
+          Fridge method…Keep them in an airtight container in the fridge for up
+          to 3 days. Thaw at room temp for 15 minutes.
+          <br />
+          <br />
+          ENJOY!
         </p>
         <h2 className="FAQTitle">
           Does Honey Bear’s Cupcakery offer favor boxes and cupcake stands?
         </h2>
         <p className="FAQText">
+          We send your cupcakes with you in a box that ensures their safety
+          getting home! Extra boxes for deal orders are $1.00 each.
+          <br />
+          <br />
           We do offer single cupcake favor boxes donned with our Honey Bear’s
-          Cupcakery sticker; each box is $1.00. We also offer a cupcake stand
-          that holds up to 24 cupcakes for an additional $10.00.
+          Cupcakery sticker; each box is $1.00.
         </p>
         <h2 className="FAQTitle">What kind of donuts do you serve?</h2>
         <p className="FAQText">
           We make our yeast donut dough from scratch, fry them fresh daily and
-          cover them with glaze.
+          cover them with glaze. We also have a variety of flavors such as
+          strawberry sprinkle, maple bacon, chocolate frosted, Boston Cream, and
+          powdered jelly filled.
         </p>
         <h2 className="FAQTitle">Are Honey Bear’s donuts available all day?</h2>
         <p className="FAQText">
