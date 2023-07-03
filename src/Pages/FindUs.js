@@ -22,7 +22,7 @@ export const FindUs = () => {
       day: "Monday",
     },
     {
-      time: "Closed",
+      time: "9 AM - 9 AM",
       day: "Tuesday",
     },
     {
