@@ -12,47 +12,47 @@ import Typography from "@mui/material/Typography";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 export const FindUs = () => {
-  const data = [
-    {
-      time: "9 AM - 4 PM",
-      day: "Sunday",
-    },
-    {
-      time: "Closed",
-      day: "Monday",
-    },
-    {
-      time: "9 AM - 9 AM",
-      day: "Tuesday",
-    },
-    {
-      time: "7 AM - 4 PM",
-      day: "Wednesday",
-    },
-    {
-      time: "7 AM - 4 PM",
-      day: "Thursday",
-    },
-    {
-      time: "7 AM - 5 PM",
-      day: "Friday",
-    },
-    {
-      time: "8 AM - 5 PM",
-      day: "Saturday",
-    },
-  ];
-  const listData = data.map((a) => (
-    <ListItem>
-      <ListItemIcon>
-        <CalendarMonthIcon style={{ color: "#af4281" }} />
-      </ListItemIcon>
-      <ListItemText style={{ color: "#af4281", textAlign: "left" }}>
-        {" "}
-        {a.day}: {a.time}
-      </ListItemText>
-    </ListItem>
-  ));
+  // const data = [
+  //   {
+  //     time: "9 AM - 4 PM",
+  //     day: "Sunday",
+  //   },
+  //   {
+  //     time: "Closed",
+  //     day: "Monday",
+  //   },
+  //   {
+  //     time: "9 AM - 9 AM",
+  //     day: "Tuesday",
+  //   },
+  //   {
+  //     time: "7 AM - 4 PM",
+  //     day: "Wednesday",
+  //   },
+  //   {
+  //     time: "7 AM - 4 PM",
+  //     day: "Thursday",
+  //   },
+  //   {
+  //     time: "7 AM - 5 PM",
+  //     day: "Friday",
+  //   },
+  //   {
+  //     time: "8 AM - 5 PM",
+  //     day: "Saturday",
+  //   },
+  // ];
+  // const listData = data.map((a) => (
+  //   <ListItem>
+  //     <ListItemIcon>
+  //       <CalendarMonthIcon style={{ color: "#af4281" }} />
+  //     </ListItemIcon>
+  //     <ListItemText style={{ color: "#af4281", textAlign: "left" }}>
+  //       {" "}
+  //       {a.day}: {a.time}
+  //     </ListItemText>
+  //   </ListItem>
+  // ));
   return (
     <div>
       <HBNavbar />
@@ -100,7 +100,8 @@ export const FindUs = () => {
             Hours of Operation
           </Typography>
           <div>
-            <List>{listData}</List>
+            Hours can be found on our Google page and our Social Media pages
+            {/* <List>{listData}</List> */}
           </div>
         </Grid>
       </div>

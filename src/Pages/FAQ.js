@@ -18,26 +18,34 @@ export const FAQ = () => {
         }}
       >
         <h2 className="FAQTitle">What are your ordering rules?</h2>
-        <p className="FAQText">
-          Place orders by calling our order line @ 828-707-9946 and leaving a
-          message. Messages are checked daily, and you will be called back by
-          the end of the business day.
-          <br />
-          <br />
-          Orders must be placed 48 hours in advance.
-          <br />
-          <br />
-          You may order any flavor cupcakes in any amount as long as they are
-          “available daily” cupcakes (these can be found on our cupcake menu on
-          our website). Cupcakes come as is on the menu unless otherwise
-          discussed.
-          <br />
-          <br />
-          Special order cupcakes (not “available daily”) may be ordered in
-          multiples of 6.
-          <br />
-          <br />
-          Any special requests can be discussed during phone call.
+        <p>
+          Honey Bear’s Cupcakery bakes our cupcakes from scratch daily! In order
+          to maintain our high standards and amazing cupcakes, we have to have
+          these following rules. Thank you!!!
+        </p>
+        <p>
+          Please place orders at Honey Bear’s Cupcakery or by calling our order
+          line @ 828-707- 9946 and leaving a message. Messages are checked
+          daily, and you will be called back by the end of the day.
+        </p>
+        <p>
+          Orders must be placed 48 hours in advance. Order can be picked up
+          after 12:00pm on your pickup date (unless otherwise discussed).
+        </p>
+        <p>
+          You may order any cupcakes that are “available now” cupcakes (these
+          can be found on our cupcake menu on our website). Cupcakes come as is
+          on the menu, we do not offer other decorations.
+        </p>
+        <p>
+          Orders may only order from cupcakes “available now” for current week
+          through Saturday.
+        </p>
+        Cupcakes flavors are changed every Sunday and labeled “next week’s
+        flavor” on our menu.
+        <p></p>
+        <p>
+          We have maximum of 36 cupcakes for orders. We do not do large events.
         </p>
         <h2 className="FAQTitle">
           Does Honey Bear’s Cupcakery only make cupcakes?
