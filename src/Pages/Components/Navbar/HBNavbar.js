@@ -62,7 +62,12 @@ class HBNavbar extends Component {
               target="_blank"
               href="https://honey-bears-cupcakery.myshopify.com"
             >
-              <Button className="navMenuBtn">Online Store</Button>
+              <Button className="navMenuBtn">Coffee Store</Button>
+            </a>
+          </div>
+          <div>
+            <a href="/FAQ">
+              <Button className="navMenuBtn">Order Rules</Button>
             </a>
           </div>
         </div>

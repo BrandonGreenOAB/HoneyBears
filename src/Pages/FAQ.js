@@ -25,68 +25,78 @@ export const FAQ = () => {
         </p>
         <p>
           Please place orders at Honey Bear’s Cupcakery or by calling our order
-          line @ 828-707- 9946 and leaving a message. Messages are checked
-          daily, and you will be called back by the end of the day.
+          line @ 828-707-9946 and leaving a message. Messages are checked daily,
+          and you will be called back by the end of the day. You can also email
+          us at Honeybearscupcakery.com!
         </p>
         <p>
           Orders must be placed 48 hours in advance. Order can be picked up
           after 12:00pm on your pickup date (unless otherwise discussed).
         </p>
         <p>
-          You may order any cupcakes that are “available now” cupcakes (these
-          can be found on our cupcake menu on our website). Cupcakes come as is
-          on the menu, we do not offer other decorations.
+          Orders may only be from cupcakes that are “available now” or “monthly
+          special” cupcakes (these can be found on our cupcake menu on our
+          website). Cupcakes come as is on the menu, we do not offer other
+          decorations.
         </p>
         <p>
-          Orders may only order from cupcakes “available now” for current week
-          through Saturday.
+          The menu changes on the 1 st of every month. If you are ordering for
+          the following month, specialty flavors for the next month will be
+          noted on the menu as “next month’s special”. Cupcake flavors from the
+          previous month will not be available.
         </p>
-        Cupcakes flavors are changed every Sunday and labeled “next week’s
-        flavor” on our menu.
+        We have a maximum of 48 cupcakes for orders. We do not do large events.
         <p></p>
-        <p>
-          We have maximum of 36 cupcakes for orders. We do not do large events.
+        <h2 className="FAQTitle">
+          Does Honey Bear’s Cupcakery offer custom decorating for cupcakes?
+        </h2>
+        <p className="FAQText">
+          No, we do not offer custom decorations but each of our flavors comes
+          with their own special design and topping!
         </p>
         <h2 className="FAQTitle">
           Does Honey Bear’s Cupcakery only make cupcakes?
         </h2>
         <p className="FAQText">
-          No, we also have glazed donuts and just like our cupcakes, we make
-          them from scratch daily! We also serve a variety of Honey Bear’
+          No, we also have Glazed donuts, Boston cream donuts, Giant apple
+          fritters, &amp; Maple bacon donuts, and just like our cupcakes, we
+          make them from scratch daily! We also serve a variety of Honey Bear’
           coffees blends, espressos, and lattes, as well as 15 flavors of hot
-          Tazo teas and our amazing Honey Sweet Iced Tea.
+          Tazo teas, our famous Honey Sweet Iced Tea and seasonal favorites!
         </p>
         <h2 className="FAQTitle">Do you have same-day pick-up ordering?</h2>
         <p className="FAQText">
-          No but you can find our “available daily” cupcakes on our online MENU.
-          All other flavors require a 48 hour notice also through our online
-          ordering.
+          No, but you can find our “available now” and “monthly special”
+          cupcakes on our online MENU. We bake our cupcakes daily, so it is a
+          first come first serve basis while supplies last. Come on down and
+          grab some!
         </p>
         <h2 className="FAQTitle">
           How do I know what flavor cupcakes are available?
         </h2>
         <p className="FAQText">
-          We regularly add new flavors and have seasonal flavors as well. Please
-          refer to the MENU on our website for our daily flavors as well as our
-          seasonal and other flavors that are rotated.
-        </p>
+          Please refer to the MENU on our website for our “available now”
+          flavors as well “monthly special” cupcakes. Cupcakes on the menu are
+          rotated monthly as well as seasonal flavors.
+        </p>{" "}
         <h2 className="FAQTitle">
           If I have a nut-allergy, should I eat at Honey Bear’s Cupcakery?
         </h2>
         <p className="FAQText">
           Though we are a peanut free facility and only use a small volume of
-          walnuts and almonds, we recommend if you have a nut allergy, it is
-          best to refrain from eating our cupcakes and donuts.
+          almonds. We recommend if you have a nut allergy, it is best to refrain
+          from eating our cupcakes and donuts. Our almond flavored cupcakes and
+          buttercream use pure almond extract.
         </p>
         <h2 className="FAQTitle">
           Do you offer any gluten free, vegan, or sugar-free cupcakes?
         </h2>
         <p className="FAQText">
-          Yes. We have a daily variety of gluten free cupcakes. We also offer
-          vegan and very low sugar cupcakes available through our online
-          ordering. Please note, because we bake with dairy and wheat flour on
-          premises daily, we recommend if you have a gluten allergy or a dairy
-          allergy, it is best to refrain from eating our cupcakes and donuts.
+          Yes. We have a select variety of gluten free and vegan cupcakes
+          available daily. See our menu for flavors available. Please note,
+          because we bake with dairy and wheat flour on premises daily, we
+          recommend if you have a gluten allergy or a dairy allergy, it is best
+          to refrain from eating our cupcakes and donuts.
         </p>
         <h2 className="FAQTitle">
           Does Honey Bear’s Cupcakery offer custom decorating for cupcakes?
@@ -129,7 +139,7 @@ export const FAQ = () => {
           ENJOY!
         </p>
         <h2 className="FAQTitle">
-          Does Honey Bear’s Cupcakery offer favor boxes and cupcake stands?
+          Does Honey Bear’s Cupcakery offer favor boxes?
         </h2>
         <p className="FAQText">
           We send your cupcakes with you in a box that ensures their safety
@@ -138,13 +148,6 @@ export const FAQ = () => {
           <br />
           We do offer single cupcake favor boxes donned with our Honey Bear’s
           Cupcakery sticker; each box is $1.00.
-        </p>
-        <h2 className="FAQTitle">What kind of donuts do you serve?</h2>
-        <p className="FAQText">
-          We make our yeast donut dough from scratch, fry them fresh daily and
-          cover them with glaze. We also have a variety of flavors such as
-          strawberry sprinkle, maple bacon, chocolate frosted, Boston Cream, and
-          powdered jelly filled.
         </p>
         <h2 className="FAQTitle">Are Honey Bear’s donuts available all day?</h2>
         <p className="FAQText">
