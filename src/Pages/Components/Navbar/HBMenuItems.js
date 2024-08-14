@@ -10,11 +10,6 @@ export const HBMenuItems = [
     className: "nav-links",
   },
   {
-    title: "About us",
-    url: "/AboutUs",
-    className: "nav-links",
-  },
-  {
     title: "Follow Us",
     url: "/FollowUs",
     className: "nav-links",
